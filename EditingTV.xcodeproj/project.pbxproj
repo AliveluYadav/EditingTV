@@ -14,6 +14,7 @@
 		D415F8B120787C0C00DD7AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D415F8AF20787C0C00DD7AFD /* LaunchScreen.storyboard */; };
 		D415F8BC20787C0C00DD7AFD /* EditingTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D415F8BB20787C0C00DD7AFD /* EditingTVTests.swift */; };
 		D415F8C720787C0C00DD7AFD /* EditingTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D415F8C620787C0C00DD7AFD /* EditingTVUITests.swift */; };
+		D415F8D520787C4400DD7AFD /* TVControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D415F8D420787C4400DD7AFD /* TVControllerTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D415F8C220787C0C00DD7AFD /* EditingTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditingTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D415F8C620787C0C00DD7AFD /* EditingTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingTVUITests.swift; sourceTree = "<group>"; };
 		D415F8C820787C0C00DD7AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D415F8D420787C4400DD7AFD /* TVControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVControllerTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D415F8AD20787C0C00DD7AFD /* Assets.xcassets */,
 				D415F8AF20787C0C00DD7AFD /* LaunchScreen.storyboard */,
 				D415F8B220787C0C00DD7AFD /* Info.plist */,
+				D415F8D420787C4400DD7AFD /* TVControllerTableViewController.swift */,
 			);
 			path = EditingTV;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D415F8D520787C4400DD7AFD /* TVControllerTableViewController.swift in Sources */,
 				D415F8A920787C0C00DD7AFD /* ViewController.swift in Sources */,
 				D415F8A720787C0C00DD7AFD /* AppDelegate.swift in Sources */,
 			);
